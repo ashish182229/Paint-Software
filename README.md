@@ -19,3 +19,20 @@ Feature in Paint with UG
 17. Change Background
 18. Horizontal symetric
 19. Vertical symetric
+
+What's New👀👀??
+
+1. Fixed few bugs🐛🐛
+2:New features🆕🆕
+
+What's New Features🤔🤔🤔🤔
+
+1.Horizontal Symetric 😲😲
+2.Vertical Symetric😲😲
+
+Advantages of New Feature
+
+1. Less effort while drawing figure😊
+2. Easy to create eyes of human i.e. help to make the eyes equidistant and same👁‍🗨👁‍🗨.
+3. easy to make body parts..👂👃👅👁
+
