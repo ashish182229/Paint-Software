@@ -1,38 +1,16 @@
-# Paint-Software
-Feature in Paint with UG
-1. Pencil
-2. Fill
-3. Text
-4. Line
-5. Rectangle
-6. Oval
-7. Load
-8. Save
-9. Triangle
-10. Right Angled Triangle
-11. Diamond
-12. Cube
-13. Cuboid
-14. Horizontal Arrow
-15. Cone
-16. Clear
-17. Change Background
-18. Horizontal symetric
-19. Vertical symetric
+The Scribble example shows how to reimplement some of QWidget's event handlers to receive the events generated for the application's widgets.
 
-What's New👀👀??
+We reimplement the mouse event handlers to implement drawing, the paint event handler to update the application and the resize event handler to optimize the application's appearance. In addition we reimplement the close event handler to intercept the close events before terminating the application.
 
-1. Fixed few bugs🐛🐛
-2:New features🆕🆕
+The example also demonstrates how to use QPainter to draw an image in real time, as well as to repaint widgets.
 
-What's New Features🤔🤔🤔🤔
+![image](https://github.com/ashish182229/Paint-Software/assets/66489551/39a9ee53-a0ad-4de9-a4a0-29c61408dadf)
 
-1.Horizontal Symetric 😲😲
-2.Vertical Symetric😲😲
+With the Scribble application the users can draw an image. The File menu gives the users the possibility to open and edit an existing image file, save an image and exit the application. While drawing, the Options menu allows the users to choose the pen color and pen width, as well as clear the screen. In addition the Help menu provides the users with information about the Scribble example in particular, and about Qt in general.
 
-Advantages of New Feature
+The example consists of two classes:
 
-1. Less effort while drawing figure😊
-2. Easy to create eyes of human i.e. help to make the eyes equidistant and same👁‍🗨👁‍🗨.
-3. easy to make body parts..👂👃👅👁
+ScribbleArea is a custom widget that displays a QImage and allows to the user to draw on it.
+MainWindow provides a menu above the ScribbleArea.
+We will start by reviewing the ScribbleArea class. Then we will review the MainWindow class, which uses ScribbleArea.
 
